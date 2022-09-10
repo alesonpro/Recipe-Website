@@ -298,9 +298,17 @@ Navbar
   font-size: 1.25rem;
 }
 
-.nav-link{
+.nav-links{
   display: flex;
   flex-direction: column;
+  /* todo */
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.show-links{
+  height: 329px;
 }
 
 .nav-link{
